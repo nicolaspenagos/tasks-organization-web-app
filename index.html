@@ -1,0 +1,41 @@
+<!-- @author Nicolas Penagos Montoya email: nicolas.penagosm98@gmail.com -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Task Organization Web App</title>
+        <link rel="stylesheet" href="css/index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      
+         <h1 style="font-family: 'Roboto', sans-serif;">Task Organization Web App</h1>
+        <div id="inputDiv">
+            <input id="taskInput" placeholder="Task description..."></input>
+            <button id="taskButton">Add task</button>
+        </div>
+        <div id="taskDiv">
+            <div id="toDo">To do</div>
+            <div id="doing">Doing</div>
+            <div id="done">Doing</div>
+        </div>
+
+    </body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase.js"></script>
+<script>
+ 
+  var firebaseConfig = {
+    apiKey: "AIzaSyBccV8AvyDPPHgEHLM4WOGH2AfUi-WTFB8",
+    authDomain: "tasks-organization-web-app.firebaseapp.com",
+    databaseURL: "https://tasks-organization-web-app.firebaseio.com",
+    projectId: "tasks-organization-web-app",
+    storageBucket: "tasks-organization-web-app.appspot.com",
+    messagingSenderId: "1076070190111",
+    appId: "1:1076070190111:web:8176c68b849718c248d92a",
+    measurementId: "G-4G13JDNCPH"
+  };
+ 
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="js/index.js"></script>

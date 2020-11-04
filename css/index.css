@@ -1,0 +1,55 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * @author Nicolás Penagos Montoya
+ * nicolas.penagosm98@gmail.com
+ **~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+ /*
+ *  Styles
+ */
+#taskInput{
+    height: 40px;
+    width: 500px;
+    padding-left: 20px;
+    border: 2px solid black;
+    font-size: large;
+    border-radius: 5px;
+}
+
+#taskButton{
+    height: 46px;
+    width: 120px;
+    font-size: large;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+}
+
+#taskDiv{
+    overflow: hidden;
+    margin: auto;
+    width: 800px;
+}
+
+#toDo{
+    float: left;
+    width: 200px;
+    background-color: royalblue;
+}
+
+#done{
+    float: left;
+    width: 200px;
+    background-color: royalblue;
+}
+
+#doing{
+    float: left;
+    width: 200px;
+    background-color: royalblue;
+
+}
+
+.sep{
+    width: 10px;
+}
