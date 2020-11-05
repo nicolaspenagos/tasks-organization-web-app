@@ -20,7 +20,6 @@ div#main{
     background-color: white;
 }
 
-
 #taskInput{
     height: 40px;
     width: 500px;
@@ -41,7 +40,7 @@ div#main{
 }
 
 div#taskDiv{
-    margin-top: 20px;
+    margin-top: 30px;
     width: 960px;
     height: 1200px;
     display: flex;
@@ -74,6 +73,28 @@ div#headToDo{
     text-align: center;
     line-height: 80px;
     color: white;
+}
+
+div#conventions{
+    height: 20px;
+    position: absolute;
+    display: flex;
+}
+
+.text{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color: #BEBEBE;
+    margin-left: 30px;
+    margin-top: 7px;
+}
+
+div#text2{
+    margin-left: 60px;
+}
+
+div#text3{
+    margin-left: 58px;
 }
 
 .header{
@@ -151,4 +172,39 @@ div#headToDo{
     position: absolute;
     left: 10px;
     bottom: 10px;
+}
+
+.deleteBtnC{
+    height: 15px;
+    width: 15px;
+    background-color: #C10100;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.nextBtnC{
+    height: 15px;
+    width: 15px;
+    background-color: #4571C4;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.backBtnC{
+    height: 15px;
+    width: 15px;
+    background-color: #FFC002;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 5px;
 }
