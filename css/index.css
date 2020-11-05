@@ -7,6 +7,20 @@
  /*
  *  Styles
  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#main{
+    margin: auto;
+    margin-top: 20px;
+    width: 960px;
+    height: 800px;
+    background-color: white;
+}
+
+
 #taskInput{
     height: 40px;
     width: 500px;
@@ -23,33 +37,118 @@
     background-color: royalblue;
     color: white;
     border-radius: 5px;
+    border: 2px solid #49679D;
 }
 
-#taskDiv{
-    overflow: hidden;
-    margin: auto;
-    width: 800px;
+div#taskDiv{
+    margin-top: 20px;
+    width: 960px;
+    height: 1200px;
+    display: flex;
+    justify-content: space-between
 }
 
-#toDo{
-    float: left;
-    width: 200px;
-    background-color: royalblue;
+div#toDo{
+    width: 300px;
+    background-color:white; 
 }
 
-#done{
-    float: left;
-    width: 200px;
-    background-color: royalblue;
+div#done{
+    width: 300px;
+    background-color: white;
 }
 
-#doing{
-    float: left;
-    width: 200px;
-    background-color: royalblue;
-
+div#doing{
+    width: 300px;
+    background-color: white;
 }
 
-.sep{
-    width: 10px;
+div#headToDo{
+    width: 300px;
+    height: 80px;
+    background-color:royalblue;
+    border: 2px solid #49679D;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+
+.header{
+    width: 300px;
+    height: 80px;
+    background-color:royalblue;
+    border: 2px solid #49679D;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    text-align: center;
+    line-height: 80px;
+    color: white;
+}
+
+.task{
+    width: 290px;
+    height: 160px;
+    border: 2px solid #BEBEBE;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    color: black;
+    margin-top: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.dateContainer{
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+    top: 0;
+    font-size: small;
+    color: #BEBEBE
+}
+
+.taskContainer{
+    margin-top: 30px;
+    height: 80px;
+}
+
+.deleteBtn{
+    height: 15px;
+    width: 15px;
+    background-color: #C10100;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nextBtn{
+    height: 15px;
+    width: 15px;
+    background-color: #4571C4;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.backBtn{
+    height: 15px;
+    width: 15px;
+    background-color: #FFC002;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid black;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }
